@@ -1,0 +1,17 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+# Ignore node modules directory
+/node_modules
+
+# Ignore webpack dev builds
+/public/bundle.js.map
+/public/bundle.js
+
+# Ignore system files
+.DS_Store
